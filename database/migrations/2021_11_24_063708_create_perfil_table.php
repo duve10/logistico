@@ -19,7 +19,7 @@ class CreatePerfilTable extends Migration
             $table->string('ap_paterno',30);
             $table->string('ap_materno',30);
             $table->string('direccion',200)->nullable();
-            $table->string('celular',9);
+            $table->string('celular',11);
             $table->string('correo',100)->unique();
             $table->date('fecha_nacimiento');
             $table->timestamps();

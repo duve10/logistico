@@ -24,7 +24,10 @@ class PerfilSeeder extends Seeder
 	        	'direccion' => 'Jr. Manuel Ruíz 230',
 	        	'celular' => 952312435,
 	        	'correo' => 'gamarra@gmail.com',
-	        	'fecha_nacimiento' => '1995-05-02'
+	        	'fecha_nacimiento' => '1995-05-02',
+				'created_at'=> date('Y-m-d H:i:s'),
+				'updated_at'=> date('Y-m-d H:i:s')
+
         	],
         	[
 	        	'nro_doc' => 12345678,
@@ -34,7 +37,9 @@ class PerfilSeeder extends Seeder
 	        	'direccion' => 'Jr. Caminos Ruíz 230',
 	        	'celular' => 369857459,
 	        	'correo' => 'lopez@gmail.com',
-	        	'fecha_nacimiento' => '1987-12-01'
+	        	'fecha_nacimiento' => '1987-12-01',
+				'created_at'=> date('Y-m-d H:i:s'),
+				'updated_at'=> date('Y-m-d H:i:s')
         	],
         	[
 	        	'nro_doc' => 12378952,
@@ -44,7 +49,9 @@ class PerfilSeeder extends Seeder
 	        	'direccion' => 'Jr. Manuel 20',
 	        	'celular' => 852741963,
 	        	'correo' => 'luis@gmail.com',
-	        	'fecha_nacimiento' => '1997-01-18'
+	        	'fecha_nacimiento' => '1997-01-18',
+				'created_at'=> date('Y-m-d H:i:s'),
+				'updated_at'=> date('Y-m-d H:i:s')
         	],
         	[
         		'nro_doc' => 98752148,
@@ -54,7 +61,9 @@ class PerfilSeeder extends Seeder
 	        	'direccion' => 'Avenida 12 230',
 	        	'celular' => 987542877,
 	        	'correo' => 'gustavo@gmail.com',
-	        	'fecha_nacimiento' => '1987-08-09'
+	        	'fecha_nacimiento' => '1987-08-09',
+				'created_at'=> date('Y-m-d H:i:s'),
+				'updated_at'=> date('Y-m-d H:i:s')
         	],
         	[
         		'nro_doc' => 96385274,
@@ -64,7 +73,9 @@ class PerfilSeeder extends Seeder
 	        	'direccion' => 'Jr. Ruíz 230',
 	        	'celular' => 258741963,
 	        	'correo' => 'juana@gmail.com',
-	        	'fecha_nacimiento' => '1985-05-10'
+	        	'fecha_nacimiento' => '1985-05-10',
+				'created_at'=> date('Y-m-d H:i:s'),
+				'updated_at'=> date('Y-m-d H:i:s')
         	],
         	[
         		'nro_doc' => 14785296,
@@ -74,7 +85,9 @@ class PerfilSeeder extends Seeder
 	        	'direccion' => 'Jr. Surco 12',
 	        	'celular' => 123456789,
 	        	'correo' => 'mariaa@gmail.com',
-	        	'fecha_nacimiento' => '1991-11-11'
+	        	'fecha_nacimiento' => '1991-11-11',
+				'created_at'=> date('Y-m-d H:i:s'),
+				'updated_at'=> date('Y-m-d H:i:s')
         	]
         ]);
     }
